@@ -11,7 +11,7 @@ public final class Pingplugin extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         getLogger().info(ChatColor.AQUA+"FUI ATIVADO!");
-        Objects.requireNonNull(this.getCommand("ping")).setExecutor(new Pingplugin());
+        this.getCommand("ping").setExecutor(new PingCommand());
     }
 
     @Override
