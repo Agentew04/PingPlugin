@@ -5,7 +5,7 @@ api-version: 1.17
 prefix: PingPlugin
 authors: [ Agentew04 ]
 description: A simple plugin to see yours and others' ping
-website: Agentew04.github.io
+website: github.com/Agentew04/PingPlugin
 commands:
   ping:
     usage: /ping or /ping <Player>
