@@ -1,0 +1,12 @@
+name: PingPlugin
+version: '${project.version}'
+main: io.github.agentew04.pingplugin.Pingplugin
+api-version: 1.17
+prefix: PingPlugin
+authors: [ Agentew04 ]
+description: A simple plugin to see yours and others' ping
+website: Agentew04.github.io
+commands:
+  ping:
+    usage: /ping or /ping <Player>
+    description: Gets your or a player's ping
